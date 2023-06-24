@@ -103,7 +103,7 @@ if (info->history)
 node = info->history;
 add_node_end(&node, buf, linecount);
 if (!info->history)
-info->history = node
+info->history = node;
 return (0);
 }
 /**
